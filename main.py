@@ -8,7 +8,7 @@ x_corner = -5
 y_corner = 5
 h = 0.3
 time = 1
-grid_axis = 2
+grid_axis = 3
 
 body = managers.create_material_body.create_material_body(x_corner, y_corner, h)
 trajectory = managers.move_material_body.move_material_body(time, h, body)
