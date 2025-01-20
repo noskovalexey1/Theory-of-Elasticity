@@ -8,8 +8,8 @@ def create_material_body(x_c, y_c, h):
     t = 1
     m = 0
     material_points = []
-    for i in range(int(2 / h) + 1):
-        for j in range(int(2 / h) + 1):
+    for i in range(int(3 / h) + 1):
+        for j in range(int(3 / h) + 1):
             x = x_c + j * h
             y = y_c + i * h
             material_points.append(
